@@ -1,2 +1,5 @@
 # DSN-Bullet-Planner
-App personal para gestion de tiempo y tareas
+
+Aplicación de organización diaria basada en el método Bullet Journal.
+
+Desarrollada en Python con Kivy. Sincronización de tareas mediante Firebase.
