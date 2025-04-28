@@ -1,10 +1,47 @@
-# Ignorar entorno virtual
+# Entorno virtual
 venv/
+ENV/
+env/
+.venv/
 
-# Archivos de sistema
-*.pyc
+# Compilados de Python
 __pycache__/
+*.py[cod]
+*$py.class
 
-# Configuraciones locales de editor
+# Logs
+*.log
+
+# Configuraciones de IDEs/editors
 .vscode/
 .idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+db.json
+
+# Builds de Kivy
+build/
+bin/
+
+# Archivos de paquetes
+*.egg-info/
+dist/
+
+# Archivos temporales
+*.swp
+*.bak
+*.tmp
+
+# Configuración local de Python
+.python-version
+
+# Base de datos local o pruebas
+*.sqlite3
+
+# Archivos ocultos de sistema operativo
+ehthumbs.db
+Desktop.ini
